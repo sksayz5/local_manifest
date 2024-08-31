@@ -22,7 +22,4 @@
  <!-- framework_base-->
  <remove-project name="frameworks_base" />
  <project path="frameworks/base" name="sksayz5/frameworks_base_Los" remote="ghub" revision="main" clone-depth="1" />
-
- 
- <project path="vendor/lineage-priv" name="shravansayz/private_keys" remote="ghub" revision="rise" clone-depth="1" />
-</manifest>
+ </manifest>
