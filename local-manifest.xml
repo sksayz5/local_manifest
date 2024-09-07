@@ -3,9 +3,7 @@
         <remote  name="ghub"
                 fetch="https://github.com" />
 
-        <remote  name="blobs-gitlab"
-                 fetch="https://gitlab.com/ThankYouMario"
-                 revision="uvite" />
+       
 
 <!-- Device Trees --> 
   <project path="device/realme/RMX1901" name="sksayz5/device_realme_RMX1901_udc" remote="ghub" revision="uvite" />
@@ -17,13 +15,7 @@
  <project path="kernel/realme/sdm710" name="shravansayz/kernel_realme_sdm710" remote="ghub" revision="14" clone-depth="1" />
 
  <!-- Proton clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
-
- <remove-project name="AOSPA/android_vendor_aospa" />
- <project path="vendor/aospa" name="sksayz5/android_vendor_aospa" remote="ghub" revision="aospa" />
-        
- <remove-project name="android_vendor_aospa_prebuilt" />
- <project path="vendor/aospa/prebuilt" name="android_vendor_aospa_prebuilt" remote="blobs-gitlab" />	
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />	
 
 
 </manifest>
