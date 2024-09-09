@@ -11,9 +11,13 @@
  <project path="vendor/realme/RMX1901" name="shravansayz/vendor_realme_RMX1901" remote="ghub" revision="14" clone-depth="1" />
 	
  <!-- Kernel Trees-->
- <project path="kernel/realme/sdm710" name="user-why-red/android_kernel_realme_sdm710_49" remote="ghub" revision="android-4.9-stable" clone-depth="1" />
+ <project path="kernel/realme/sdm710" name="user-why-red/android_kernel_realme_sdm710_49" remote="ghub" revision="stable-release" clone-depth="1" />
 
-<!-- Viper4android -->
+<!-- Proton clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="ghub" revision="master" clone-depth="1" />
+
+	
+ <!-- Viper4android -->
  <project path="packages/apps/ViPER4AndroidFX" name="ij-israfil/packages_apps_ViPER4AndroidFX" remote="ghub" revision="v4a" />
 
  
